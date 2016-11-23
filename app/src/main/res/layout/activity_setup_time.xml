@@ -8,6 +8,11 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="rtc.kanchana.sirirat.pookalert.SetupTime">
+    tools:context="rtc.kanchana.sirirat.pookalert.SetupTime"
+    android:background="@drawable/bg6">
 
+    <CalendarView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/calendarView" />
 </RelativeLayout>
