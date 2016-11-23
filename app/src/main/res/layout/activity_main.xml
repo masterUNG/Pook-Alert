@@ -19,4 +19,26 @@
         android:id="@+id/imageView"
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true" />
+
+    <TextView
+        android:text="11:36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textSize="60sp"
+        android:textStyle="normal|bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:textColor="#1b56e0" />
+
+    <TextView
+        android:text="23/11/2016"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textSize="36sp"
+        android:textStyle="normal|italic"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textView"
+        android:textColor="@android:color/holo_green_dark" />
 </RelativeLayout>
